@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: qartulibold;
+    src: url(../font/bpg_nino_mtavruli_bold.ttf);
+}
+
+@font-face {
+    font-family: gverduli;
+    src: url(../font/academiury-itv_bold_italic_1.ttf);
+}
+
+body {
+    background-image: url(../img/pos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    width: 600px;
+    height: 60px;
+    background-color: #000000;
+    margin-left: 800px;
+    margin-top: 30px;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.reg {
+    width: 600px;
+    margin-left: 800px;
+}
+
+.reg input, .reg textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 16px;
+    outline: none;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+}
+
+.reg textarea {
+    resize: none;
+    margin-top: 10px;
+}
+
+.reg label {
+    font-weight: 900;
+    color: #000000;
+    font-family: qartulibold;
+}
+
+.reg input::placeholder {
+    color: #000000;
+    font-weight: 900;
+}
+
+.label {
+    font-weight: 900;
+    font-size: 17px;
+    color: #000000;
+    font-family: qartulibold;
+    margin-top: -10px;
+}
+  
+
+input[type=radio] {
+   appearance: none;
+   background-color: rgba(255, 255, 255, 0.5);
+   width: 10px;
+   height: 10px;
+   border: none;
+   display: inline-grid;
+   place-content: center; 
+   margin-left: 80px;
+   margin-top: 20px;
+   margin-right: 10px;
+   margin-bottom: 20px;
+   cursor: pointer;
+ }
+
+input[type=radio]::before {
+   content: "";
+   width: 20px;
+   height: 20px;
+   transform: scale(0);
+   transform-origin: bottom left;
+   background-color: green;
+   clip-path: polygon(13% 50%, 34% 66%, 81% 2%, 100% 18%, 39% 100%, 0 71%);
+}
+
+input[type=radio]:checked::before {
+   transform: scale(1);
+}
+input[type=radio]:checked{
+   background-color:   rgba(255, 255, 255, 0.5);
+   border: none;
+}
+
+.reg input[type="submit"] {
+font-size: 20px;
+cursor: pointer;
+background-color: #136e56;
+border-bottom: 3px solid #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----success html----- */
+
+
+.div {
+    width: 600px;
+    height: 300px;
+    background-color: #000000;
+    margin-top: 50px;
+    margin-left: 850px;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.pirveli {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.meore {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 40px;
+}
+
+.mesame {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 13px;
+}
+
+.ukandab {
+    width: 600px;
+    height: 50px;
+    background-color: #d0ad12;
+    margin-top: 270px;
+    margin-left: 850px;
+    border-radius: 10px;
+    border-bottom: 3px solid #000000;
+    padding-top: 11px;
+}
+
+ .gilak {
+    padding-left: 140px;
+    padding-right: 115px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: #000000;
+    font-weight: 600;
+ }
